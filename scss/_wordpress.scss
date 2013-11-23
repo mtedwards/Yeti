@@ -1,5 +1,4 @@
 
-
 img.alignright {float:right; margin:0 0 1em 1em}
 img.alignleft {float:left; margin:0 1em 1em 0}
 img.aligncenter {display: block; margin-left: auto; margin-right: auto}
@@ -71,15 +70,6 @@ ol.commentlist {
 }
 */
 
-// add some extra margin to ul
-ul {
-	margin-#{$default-float}: $list-side-margin;
-}
-
-// add some margin for images in post
-.container img {
-	margin-bottom: $paragraph-margin-bottom;
-}
 
 // adjust search button on top-bar
 input.prefix.button {
